@@ -1,0 +1,9 @@
+Package: com.chr1s.reachthenekos
+Name: ReachTheNekos
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: Add catgirl to reachability view ///0w0///
+Maintainer: Chr1s
+Author: Chr1s
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
