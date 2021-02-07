@@ -1,9 +1,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <UIKit/UIControl.h>
 
-UIImageView *imageView;
-UIImage *image;
+static UIImageView *imageView;
 
 @interface SBReachabilityBackgroundViewController : UIViewController
 @end
