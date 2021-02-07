@@ -5,7 +5,8 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     %orig;
-    
+
+    static UIImageView *imageView;
     // Add imageView
     if(!imageView) {
         UIImage *image = [UIImage imageWithContentsOfFile:@"/Library/ReachImage/neko.png"];
@@ -21,14 +22,14 @@
             newSize.height
             );
         // burrit0z shut
-        // no
+		// no
 		// thanks : )
     }
 
     [self.view addSubview:imageView];
     [self.view bringSubviewToFront:imageView];
 
-	[NSLayoutConstraint activateConstraints:@[ // If I don't need half of these feel free to remove them
+	[NSLayoutConstraint activateConstraints:@[ // If I don't need half of these feel free to remove some
 		[imageView.widthAnchor constraintEqualToAnchor:self.view.widthAnchor],
 		[imageView.heightAnchor constraintEqualToAnchor:self.view.heightAnchor],
 		[imageView.topAnchor constraintEqualToAnchor:self.view.topAnchor],
