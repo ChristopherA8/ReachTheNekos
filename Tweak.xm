@@ -20,7 +20,7 @@
             (-1 * newSize.height),
             newSize.width,
             newSize.height
-            );
+        );
         // burrit0z shut
 		// no
 		// thanks : )
