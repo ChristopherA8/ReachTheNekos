@@ -21,7 +21,7 @@
             newSize.width,
             newSize.height
         );
-        // burrit0z shut
+        // ~~burrit0z shut~~
 		// no
 		// thanks : )
     }
