@@ -30,14 +30,10 @@
     [self.view bringSubviewToFront:imageView];
 
 	[NSLayoutConstraint activateConstraints:@[ // If I don't need half of these feel free to remove some
-		[imageView.widthAnchor constraintEqualToAnchor:self.view.widthAnchor],
-		[imageView.heightAnchor constraintEqualToAnchor:self.view.heightAnchor],
 		[imageView.topAnchor constraintEqualToAnchor:self.view.topAnchor],
 		[imageView.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor],
 		[imageView.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor],
-		[imageView.trailingAnchor constraintEqualToAnchor:self.view.trailingAnchor],
-		[imageView.leftAnchor constraintEqualToAnchor:self.view.leftAnchor],
-		[imageView.rightAnchor constraintEqualToAnchor:self.view.rightAnchor]
+		[imageView.trailingAnchor constraintEqualToAnchor:self.view.trailingAnchor]
 	]];
 }
 
